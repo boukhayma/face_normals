@@ -6,10 +6,10 @@ Victoria Fernández Abrevaya*, Adnane Boukhayma*, Philip H. S. Torr, Edmond Boye
 ## Requirements
 Comming soon..
 
-## Testing
+## Data preprocessing
 Comming soon..
 
-## Data preprocessing
+## Testing
 Comming soon..
 
 ## Acknowledgement
