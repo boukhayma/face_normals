@@ -4,7 +4,8 @@ Victoria Fernández Abrevaya*, Adnane Boukhayma*, Philip H. S. Torr, Edmond Boye
 <img src="teaser.jpg"/>
 
 ## Requirements
-Comming soon..
++ Python 2.7
++ PyTorch 0.3
 
 ## Data preprocessing
 Comming soon..
