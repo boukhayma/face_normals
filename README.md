@@ -17,10 +17,9 @@ python crop.py
 ```
 
 ## Testing
-Download the [model weights](https://drive.google.com/file/d/1Ar9gUuq1kpVUUOlGsuOqfeiyv2GdixS9
-). Put file `model.pth` in directory `data`.
+Download the [model weights](https://drive.google.com/file/d/1Qb7CZbM13Zpksa30ywjXEEHHDcVWHju_). Put file `model.pth` in directory `data`.
 
-Run the following command to test our method on cropped image examples in `data/cropped`. 
+Run the following command to test our method on cropped image examples in `data/cropped`. Results are saved in `data/output`.  
 ```
 python tester.py
 ```
