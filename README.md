@@ -8,7 +8,11 @@ Victoria Fernández Abrevaya*, Adnane Boukhayma*, Philip H. S. Torr, Edmond Boye
 + PyTorch 0.3
 
 ## Data preprocessing
-Comming soon..
+Input images are assumed to be crops of fixed size around the face. Using `dlib`, this command finds the tightest rectangular box of edge size
+ `l ` containing the face. Images are then cropped with a square patch of size `1.2xl`. Input images are located in `data/original` and cropped images are saved in `data/cropped`.
+```
+python crop.py
+```
 
 ## Testing
 Comming soon..
