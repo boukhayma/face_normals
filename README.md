@@ -8,10 +8,9 @@ Victoria Fernández Abrevaya*, Adnane Boukhayma*, Philip H. S. Torr, Edmond Boye
 + PyTorch 0.3
 
 ## Data preprocessing
-Download the [dlib trained facial shape predictor](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2). Put file `shape_predictor_68_face_landmarks.dat` in directory `data`.
-
 Input images are assumed to be crops of fixed size around the face. Using `dlib`, this command finds the tightest rectangular box of edge size
  `l` containing the face. Images are then cropped with a square patch of size `1.2xl`. Input images are located in `data/original` and cropped images are saved in `data/cropped`.
+Download the [dlib trained facial shape predictor](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2). Put file `shape_predictor_68_face_landmarks.dat` in directory `data`. 
 ```
 python crop.py
 ```
@@ -19,7 +18,7 @@ python crop.py
 ## Testing
 Download the [model weights](https://drive.google.com/file/d/1Qb7CZbM13Zpksa30ywjXEEHHDcVWHju_). Put file `model.pth` in directory `data`.
 
-Run the following command to test our method on cropped image examples in `data/cropped`. Results are saved in `data/output`.  
+Run the following command to generate an image of normals from a cropped RGB image example in `data/cropped`. Results are saved in `data/output`.  
 ```
 python tester.py
 ```
