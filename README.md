@@ -24,6 +24,18 @@ Run the following command to generate an image of normals from a cropped RGB ima
 python tester.py
 ```
 
+
+## Citation
+```
+@InProceedings{Abrevaya_2020_CVPR,
+author = {Abrevaya, Victoria Fernandez and Boukhayma, Adnane and Torr, Philip H.S. and Boyer, Edmond},
+title = {Cross-Modal Deep Face Normals With Deactivable Skip Connections},
+booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+} 
+```
+
 ## Acknowledgement
 This work was partly supported by the ERC grant ERC-2012-AdG 321162-HELIOS, the EPSRC grant Seebibyte EP/M013774/1 and the EPSRC/MURI grant EP/N019474/1.
 
