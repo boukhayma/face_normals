@@ -1,6 +1,7 @@
 # Cross-modal Deep Face Normals with Deactivable Skip Connections
 Victoria Fernández Abrevaya*, Adnane Boukhayma*, Philip H. S. Torr, Edmond Boyer (*Equal contrib.).</br> 
-[CVPR 2020 (Oral)](https://arxiv.org/abs/2003.09691)</br> 
+[CVPR 2020 (Oral)](https://arxiv.org/abs/2003.09691)</br>
+
 <img src="teaser.png" width="400"/>
 
 ## Requirements
