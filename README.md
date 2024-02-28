@@ -20,7 +20,7 @@ python crop.py
 ## Testing
 Download the [model weights](https://drive.google.com/file/d/1Qb7CZbM13Zpksa30ywjXEEHHDcVWHju_). Put file `model.pth` in directory `data`.
 
-Run the following command to generate an image of normals from a cropped RGB image example in `data/cropped`. Results are saved in `data/output`.  
+Run the following command to generate an image of normals from a cropped RGB image example in `data/cropped`. Results are saved in `data/output`. If the directory doesn't exist, create it by running `mkdir data/output`.
 ```
 python tester.py
 ```
